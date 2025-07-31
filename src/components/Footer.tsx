@@ -9,7 +9,7 @@ const Footer = () => {
             {/* Logo and Description */}
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <img src="/public/NoBkInActionLogo.png" alt="" className="h-12 w-auto" />
+                <img src="/public/NoBkInActionLogo.png" alt="" className="h-[60px] w-auto" />
                 <div>
                 
                 </div>
