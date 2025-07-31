@@ -9,7 +9,7 @@ const Footer = () => {
             {/* Logo and Description */}
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <img src="/public/NoBkInActionLogo.png" alt="InAction Fitness" className="h-12 w-auto" />
+                <img src="/public/NoBkInActionLogo.png" alt="" className="h-12 w-auto" />
                 <div>
                   <h3 className="text-lg font-bold text-gray-900">InAction Fitness</h3>
                 </div>
@@ -112,7 +112,7 @@ const Footer = () => {
           
           <div className="border-t border-border mt-8 pt-8 text-center">
             <p className="text-gray-600">
-              © 2025 InAction Fitness. All rights reserved.
+              © 2025 InAction Fitness. All rights reserved. AbeVision Design.
             </p>
           </div>
         </div>
