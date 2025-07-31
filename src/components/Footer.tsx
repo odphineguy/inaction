@@ -1,5 +1,4 @@
-import { Facebook, Instagram, Phone, Mail } from "lucide-react";
-import logoImage from "@/assets/inaction-logo.png";
+import { Facebook, Instagram, Phone, Mail, Youtube, Twitter, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,10 +9,9 @@ const Footer = () => {
             {/* Logo and Description */}
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <img src={logoImage} alt="InAction Fitness" className="h-10 w-10" />
+                <img src="/lovable-uploads/0c11b7c5-2fa9-4998-a71d-feac8e089eef.png" alt="InAction Fitness" className="h-10 w-10" />
                 <div>
                   <h3 className="text-lg font-bold text-foreground">InAction Fitness</h3>
-                  <p className="text-sm text-muted-foreground">Phoenix, AZ</p>
                 </div>
               </div>
               <p className="text-muted-foreground">
@@ -83,6 +81,30 @@ const Footer = () => {
                   >
                     <Instagram size={20} />
                   </a>
+                  <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    <Youtube size={20} />
+                  </a>
+                  <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    <Twitter size={20} />
+                  </a>
+                  <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    <MessageCircle size={20} />
+                  </a>
                 </div>
               </div>
             </div>
@@ -90,7 +112,7 @@ const Footer = () => {
           
           <div className="border-t border-border mt-8 pt-8 text-center">
             <p className="text-muted-foreground">
-              © 2024 InAction Fitness. All rights reserved. | Phoenix, Arizona
+              © 2025 InAction Fitness. All rights reserved.
             </p>
           </div>
         </div>

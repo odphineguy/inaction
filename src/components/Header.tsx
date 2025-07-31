@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, Facebook, Instagram } from "lucide-react";
-import logoImage from "@/assets/inaction-logo.png";
+import { Phone, Mail, Facebook, Instagram, Youtube, Twitter, MessageCircle } from "lucide-react";
 
 const Header = () => {
   const scrollToSection = (sectionId: string) => {
@@ -13,10 +12,9 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <img src={logoImage} alt="InAction Fitness" className="h-12 w-12" />
+            <img src="/lovable-uploads/0c11b7c5-2fa9-4998-a71d-feac8e089eef.png" alt="InAction Fitness" className="h-12 w-12" />
             <div>
               <h1 className="text-xl font-bold text-foreground">InAction Fitness</h1>
-              <p className="text-sm text-muted-foreground">Phoenix, AZ</p>
             </div>
           </div>
           
@@ -57,6 +55,30 @@ const Header = () => {
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Instagram size={20} />
+            </a>
+            <a 
+              href="#" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Youtube size={20} />
+            </a>
+            <a 
+              href="#" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <Twitter size={20} />
+            </a>
+            <a 
+              href="#" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <MessageCircle size={20} />
             </a>
             <Button 
               variant="fitness" 

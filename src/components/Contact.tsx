@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Youtube, Twitter, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -65,7 +65,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Location</h4>
-                    <p className="text-muted-foreground">Phoenix, Arizona</p>
+                    <p className="text-muted-foreground">Arizona</p>
                   </div>
                 </div>
                 
@@ -99,6 +99,30 @@ const Contact = () => {
                     className="bg-primary/10 p-3 rounded-lg hover:bg-primary/20 transition-colors group"
                   >
                     <Instagram className="text-primary group-hover:scale-110 transition-transform" size={24} />
+                  </a>
+                  <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-primary/10 p-3 rounded-lg hover:bg-primary/20 transition-colors group"
+                  >
+                    <Youtube className="text-primary group-hover:scale-110 transition-transform" size={24} />
+                  </a>
+                  <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-primary/10 p-3 rounded-lg hover:bg-primary/20 transition-colors group"
+                  >
+                    <Twitter className="text-primary group-hover:scale-110 transition-transform" size={24} />
+                  </a>
+                  <a 
+                    href="#" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-primary/10 p-3 rounded-lg hover:bg-primary/20 transition-colors group"
+                  >
+                    <MessageCircle className="text-primary group-hover:scale-110 transition-transform" size={24} />
                   </a>
                 </div>
               </div>
