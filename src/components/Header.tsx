@@ -14,7 +14,7 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <img src="/lovable-uploads/c37c0191-2bf9-45f8-be9c-e17c637d5057.png" alt="InAction Fitness" className="h-16 w-auto" />
             <div>
-              <h1 className="text-xl font-bold text-gray-900">InAction Fitness</h1>
+
             </div>
           </div>
           
