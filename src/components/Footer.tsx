@@ -2,7 +2,7 @@ import { Facebook, Instagram, Phone, Mail, Youtube, Twitter, MessageCircle } fro
 
 const Footer = () => {
   return (
-    <footer className="bg-background border-t border-border py-12">
+    <footer className="bg-white border-t border-border py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
