@@ -32,7 +32,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-            Holistic personal training and nutrition coaching in Phoenix, AZ. 
+            Holistic personal training and nutrition coaching. 
             Build strength, improve wellness, and achieve lasting results with a customized approach.
           </p>
           
