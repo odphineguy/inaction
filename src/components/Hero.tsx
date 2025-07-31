@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Award, Users, Target } from "lucide-react";
 
-
 const Hero = () => {
   const scrollToContact = () => {
     const element = document.getElementById('contact');
@@ -10,20 +9,17 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-     {/* Background Video */}
-<video 
-  autoPlay 
-  muted 
-  loop 
-  playsInline
-  className="absolute inset-0 w-full h-full object-cover"
->
-  <source src="/src/assets/hero-video.mp4" type="video/mp4" />
-</video>
-<div className="absolute inset-0 bg-black/70"></div>
+      {/* Background Video */}
+      <video 
+        autoPlay 
+        muted 
+        loop 
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/src/assets/hero-video.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-black/70"></div>
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
