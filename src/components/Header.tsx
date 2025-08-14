@@ -12,7 +12,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <img src="/public/NoBkInActionLogo.png" alt="" className="h-[96px] w-auto" />
+            <img src="/NoBkInActionLogo.png" alt="InAction Fitness Logo" className="h-[96px] w-auto" />
             <div>
 
             </div>
