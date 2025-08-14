@@ -21,19 +21,19 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-6">
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-white-700 hover:text-primary transition-colors"
+              className="text-gray-300 hover:text-primary transition-colors"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-white-700 hover:text-primary transition-colors"
+              className="text-gray-300 hover:text-primary transition-colors"
             >
               Services
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-white-700 hover:text-primary transition-colors"
+              className="text-gray-300 hover:text-primary transition-colors"
             >
               Contact
             </button>
@@ -44,7 +44,7 @@ const Header = () => {
               href="https://www.facebook.com/InActionFitness" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-white-600 hover:text-primary transition-colors"
+              className="text-gray-300 hover:text-primary transition-colors"
             >
               <Facebook size={20} />
             </a>
@@ -52,7 +52,7 @@ const Header = () => {
               href="https://www.instagram.com/inactionfitness?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-white-600 hover:text-primary transition-colors"
+              className="text-gray-300 hover:text-primary transition-colors"
             >
               <Instagram size={20} />
             </a>
@@ -60,7 +60,7 @@ const Header = () => {
               href="#" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-white-600 hover:text-primary transition-colors"
+              className="text-gray-300 hover:text-primary transition-colors"
             >
               <Youtube size={20} />
             </a>
@@ -68,7 +68,7 @@ const Header = () => {
               href="#" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-white-600 hover:text-primary transition-colors"
+              className="text-gray-300 hover:text-primary transition-colors"
             >
               <Twitter size={20} />
             </a>
@@ -76,7 +76,7 @@ const Header = () => {
               href="#" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-white-600 hover:text-primary transition-colors"
+              className="text-gray-300 hover:text-primary transition-colors"
             >
               <MessageCircle size={20} />
             </a>
