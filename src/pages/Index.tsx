@@ -6,12 +6,8 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => {
-  console.log('Index component rendering');
   return (
     <div className="min-h-screen bg-background">
-      <div style={{padding: '20px', background: 'red', color: 'white'}}>
-        DEBUG: Index component is rendering
-      </div>
       <Header />
       <Hero />
       <About />
