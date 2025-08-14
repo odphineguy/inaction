@@ -1,22 +1,9 @@
-# Welcome to your Lovable project
+# InAction Fitness - Personal Training & Nutrition
+
+A modern, responsive website for InAction Fitness, offering holistic personal training and nutrition coaching in Phoenix, AZ.
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/026d87e9-f188-48f3-8a1d-1e634fee9d57
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/026d87e9-f188-48f3-8a1d-1e634fee9d57) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -60,14 +47,37 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/026d87e9-f188-48f3-8a1d-1e634fee9d57) and click on Share -> Publish.
+This project is automatically deployed to GitHub Pages. The site is available at: https://odphineguy.github.io/inaction/
 
-## Can I connect a custom domain to my Lovable project?
+### GitHub Pages Setup
 
-Yes, you can!
+1. **Repository Settings**: Go to your repository settings on GitHub
+2. **Pages Section**: Navigate to "Pages" in the left sidebar
+3. **Source**: Select "GitHub Actions" as the source
+4. **Branch**: The deployment will happen automatically when you push to the `main` branch
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Local Development
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```sh
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+### Manual Deployment
+
+If you need to deploy manually:
+
+1. Build the project: `npm run build`
+2. The built files will be in the `dist/` directory
+3. Upload the contents of `dist/` to your web server
